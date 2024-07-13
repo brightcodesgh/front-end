@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #eee;
+}
+.gen-inputs, .gen-input-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-input, .copy-button{
+  width: 450px;
+  padding: 5px;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  outline: none;
+  color: black;
+  padding: 4px;
+  
+}
+
+.copy-button{
+  background-color: rgb(50, 50, 185);
+  width: 100px;
+  color: #eee;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0 7px 7px 0;
+}
+
+.gen-input-2{
+  margin: 25px;
+}
+
+.gen-input-2 label{
+  padding: 0 4px;
+}
+.gen-input-2 input{
+  margin: 0 20px 0 0;
+}
+label{
+  color: #dad5d5;
+  font-size: 18px;
+}
+
+.length,.nums, .spec-characters{
+  accent-color: rgb(50, 50, 185);
+}
